@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularz Kontaktowy</title>
+</head>
+<body>
+	<h1>Formularz Kontaktowy</h1>
+	Nazwisko:
+	<br>
+	<input type="text" name="nazwisko" size="20" maxlength="20">
+	<br>
+	Imię:
+	<br>
+	<input type="text" name="imię" size="20" maxlength="20">
+	<br>
+	Wykształcenie:
+	<br>
+	<input type="radio" name="box" value="on">Podstawowe
+	<br>
+	<input type="radio" name="box" value="on">Średnie
+	<br>
+	<input type="radio" name="box" value="on">Wyższe
+	<br>
+	W jakim języku/językach programujesz?
+	<br>
+	<input type="checkbox" name="check" value="on">PhP
+	<br>
+	<input type="checkbox" name="check" value="on">JavaScript
+	<br>
+	<input type="checkbox" name="check" value="on">Python
+	<br>
+	<input type="checkbox" name="check" value="on">C++
+	<br>
+	<input type="checkbox" name="check" value="on">Java
+	<br>
+	Zgadzam się na przetwarzanie danych osobowych <input type="checkbox" name="check" value="on">.
+	<br>
+	Wiek:
+	<br>
+	<form>
+		<select name="dropdown">
+			<option value="0" selected>0</option>
+			<option value="1" selected>1</option>
+			<option value="2" selected>2</option>
+			<option value="3" selected>3</option>
+			<option value="4" selected>4</option>
+			<option value="5" selected>5</option>
+			<option value="6" selected>6</option>
+			<option value="7" selected>7</option>
+			<option value="8" selected>8</option>
+			<option value="9" selected>9</option>
+			<option value="10" selected>10</option>
+			<option value="11" selected>11</option>
+			<option value="12" selected>12</option>
+			<option value="13" selected>13</option>
+			<option value="14" selected>14</option>
+			<option value="15" selected>15</option>
+			<option value="16" selected>16</option>
+			<option value="17" selected>17</option>
+			<option value="wybierz wiek" selected>Wybierz Wiek</option>
+		</select>
+	</form>
+	<br>
+	Uwagi:
+	<form>
+		<textarea rows="5" cols="20" name="wpisz uwagi">Wpisz uwagi</textarea>
+	</form>
+	<br>
+	<input type="submit" name="prześlij" value="Prześlij">
+	<input type="reset" name="resetuj" value="Resetuj">
+</body>
+</html>
